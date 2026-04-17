@@ -1,6 +1,8 @@
 # LieFold-AI
 **Lie Group Geometry for Protein Folding Dynamics & Pathogenicity Prediction**
 
+Author: Haijian Shao etc
+
 ![Framework](https://github.com/user-attachments/assets/9874d408-7f11-4f6c-97e5-e29a9bb2d5d6)
 
 ## 🌟 Overview
