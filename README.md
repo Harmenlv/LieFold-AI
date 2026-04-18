@@ -1,12 +1,6 @@
 # LieFold-AI
 **Lie Group Geometry for Protein Folding Dynamics & Pathogenicity Prediction**
-
-Author: Haijian Shao etc
-
-![Framework](https://github.com/user-attachments/assets/9874d408-7f11-4f6c-97e5-e29a9bb2d5d6)
-
-# LieFold-AI
-**Lie Group Geometry for Protein Folding Dynamics & Pathogenicity Prediction**
+## 🆕 Improved Topological Spectral Defect Validation (Latest Update)
 
 Author: Haijian Shao etc
 
@@ -188,11 +182,6 @@ Issues, pull requests, and extensions are welcome:
 3. Language is streamlined for GitHub readability—concise, scannable, and focused on usability while preserving all academic rigor.
 4. All technical terms (TSD, δ_spec, Lie algebra, topological hubs) are consistent with your research framework and clearly contextualized.
 
-下面给你**仅新增段落、无缝插入、独立可直接复制粘贴**，  
-文件名：`liefold_ai_improve`  
-只写**本次最新实验+拓扑解读+四分组数据+统计学显著结果**，不重复旧内容。
-
----
 
 # 【新增内容 · liefold_ai_improve】
 
