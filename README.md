@@ -183,7 +183,7 @@ Issues, pull requests, and extensions are welcome:
 4. All technical terms (TSD, δ_spec, Lie algebra, topological hubs) are consistent with your research framework and clearly contextualized.
 
 
-# 【新增内容 · liefold_ai_improve】
+# 【liefold_ai_improve】
 
 ## 🆕 Improved Topological Spectral Defect Validation (Latest Update)
 Based on refined Lie algebra regularization, squared long-range diffusion kernel $A^2$, and normalized Laplacian eigenvalue perturbation analysis, we further upgraded LieFold-AI to capture global topological communication and subtle fold instability. Comprehensive large-scale validation was conducted on **108 PDB proteins** with **1060 high-quality validated residues**, covering four biologically representative residue categories: **PTM functional sites, OMIM disease-related sites, ClinVar pathogenic mutations, and gnomAD neutral variants**.
