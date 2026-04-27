@@ -3,6 +3,7 @@
 ## 🆕 Improved Topological Spectral Defect Validation (Latest Update)
 
 Author: Haijian Shao etc
+This repository corresponds to the bioRxiv preprint (MS ID: BIORXIV/2026/720255) titled Geometric Theoretical Framework for Dynamic Protein Mutation Detection Models: Defect Awareness and Pathogenicity Prediction.
 
 ![Framework](https://github.com/user-attachments/assets/9874d408-7f11-4f6c-97e5-e29a9bb2d5d6)
 
