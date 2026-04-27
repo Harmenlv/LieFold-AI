@@ -5,6 +5,7 @@
 Author: Haijian Shao etc
 
 This repository corresponds to the bioRxiv preprint (MS ID: BIORXIV/2026/720255) titled Geometric Theoretical Framework for Dynamic Protein Mutation Detection Models: Defect Awareness and Pathogenicity Prediction.
+doi: https://doi.org/10.64898/2026.04.22.720255, Link: https://www.biorxiv.org/content/10.64898/2026.04.22.720255v1
 
 ![Framework](https://github.com/user-attachments/assets/9874d408-7f11-4f6c-97e5-e29a9bb2d5d6)
 
