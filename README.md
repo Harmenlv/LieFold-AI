@@ -4,6 +4,8 @@
 
 Author: Haijian Shao etc
 
+This work is part of a series of three related papers, one of which is currently publicly available as a preprint.
+
 This repository corresponds to the bioRxiv preprint (MS ID: BIORXIV/2026/720255) titled Geometric Theoretical Framework for Dynamic Protein Mutation Detection Models: Defect Awareness and Pathogenicity Prediction.
 doi: https://doi.org/10.64898/2026.04.22.720255, Link: https://www.biorxiv.org/content/10.64898/2026.04.22.720255v1
 
@@ -222,4 +224,148 @@ gnomAD benign variants localize to flexible surface loops and redundant peripher
 
 ### ✅ Conclusion of Improved Module
 The improved LieFold-AI module proves that **pathogenicity, disease relevance, and biological function are quantitatively encoded in protein topological spectra**. The $\delta_{\text{spec}}$ metric provides a white-box, geometry-driven, and experimentally consistent biomarker for variant interpretation, especially for VUS and allosteric mutation mechanism analysis.
+
+# LieFold-AI
+**A Geometric–Algebraic Framework for Protein Mutation Analysis via Spectral Defect**
+
+---
+
+## 🔬 Overview
+LieFold-AI is a geometry-driven framework for analyzing protein mutation effects based on **spectral topology** and **Lie algebra-inspired structural perturbation modeling**.
+
+Traditional protein mutation prediction methods mostly rely on static structural features or sequence co-evolution statistics, while largely ignoring the **global structural propagation effect** triggered by local residue perturbation.
+To address this limitation, we propose a novel **Spectral Defect** metric, which quantifies how local mutational disturbance induces global topological and spectral responses on the protein conformational manifold.
+
+---
+
+## 🧠 Core Idea
+We model a folded protein as a geometric embedded graph and define the core concept as:
+> **Spectral Defect**: The global spectral variation of protein graph Laplacian induced by local residue perturbation.
+
+Empirical observations on TP53 reveal an inverse topological pattern:
+- Pathogenic mutation sites tend to exhibit **lower spectral defect**
+- Structurally neutral regions show **higher spectral perturbability**
+
+This indicates that disease-related mutations preferentially locate in **structurally rigid and topologically constrained core regions** of proteins.
+
+---
+
+## ⚙️ Method Pipeline
+1. **Structure Parsing**
+- Load experimental PDB structures
+- Extract Cα atomic coordinates for graph modeling
+
+2. **Mutation Residue Mapping**
+- Map ClinVar annotated mutations to PDB structures via SIFTS
+- UniProt residue alignment and structure-residue correspondence
+
+3. **Topological Graph Construction**
+- Build Gaussian distance-weighted adjacency matrix
+- Compute symmetric normalized graph Laplacian
+
+4. **Spectral Topology Analysis**
+- Estimate intrinsic spectral dimension via heat kernel trace
+- Simulate local residue perturbation for mutation modeling
+
+5. **Spectral Defect Calculation**
+```text
+defect = 1 - d_mut / d_native
+```
+
+6. **Statistical & Classification Evaluation**
+- Group comparison between pathogenic and neutral sites
+- Significance test and ROC discriminative performance evaluation
+
+---
+
+## 📊 Experimental Results (TP53 Case Study)
+We validate the framework on **TP53**, a canonical tumor suppressor protein associated with human cancer.
+
+### Dataset Description
+- 460 annotated pathogenic mutation sites (ClinVar)
+- 460 structurally neutral non-mutation control sites
+- Total evaluated residues: **920**
+- Structure-residue mapping: PDB + SIFTS + ClinVar
+
+### Quantitative Statistics
+| Metric               | Pathogenic Sites | Neutral Sites |
+| -------------------- | ---------------- | ------------- |
+| Mean Spectral Defect | 0.0029           | 0.0087        |
+| Median               | 0.0006           | 0.0085        |
+| Standard Deviation   | 0.0045           | 0.0049        |
+
+- Statistical significance: Mann–Whitney U test, $p < 10^{-10}$
+- Classification performance: ROC AUC ≈ **0.80**
+
+### Biological Interpretation
+- Lower spectral defect of pathogenic sites reflects **structural rigidity and topological constraint**
+- Higher spectral defect of neutral sites corresponds to flexible surface regions with strong perturbability
+- Local mutation perturbation induces measurable **long-range topological communication** across the whole protein graph
+
+---
+
+## ⚠️ Experimental Setting Statement
+Due to the limited availability of high-quality clinically annotated benign variants for TP53:
+> We adopt **structurally neutral non-mutation sites** as a reasonable proxy control group.
+
+The current experiment focuses on:
+✔ Distinguishing functionally sensitive pathogenic loci from structurally stable regions
+❌ Not a strict direct classification task of pathogenic vs benign variants
+
+---
+
+## 🚀 Framework Highlights
+- ✔ Fully reproducible & Google Colab ready
+- ✔ Pure geometric-algebraic design, no end-to-end deep learning required
+- ✔ Physics-interpretable topological biomarker
+- ✔ Directly operates on experimental protein PDB structures
+- ✔ Theorem-driven rather than empirical statistic fitting
+
+---
+
+## 📦 Installation
+```bash
+git clone https://github.com/Harmenlv/LieFold-AI.git
+cd LieFold-AI
+pip install -r requirements.txt
+```
+
+## ▶️ Quick Usage
+```bash
+python main.py
+```
+The pipeline can also be executed directly in **Google Colab** for one-click reproduction.
+
+---
+
+## 📁 Data Sources
+- Protein Data Bank (PDB)
+- ClinVar Clinical Variant Database
+- SIFTS Structure-Residue Mapping Resource
+
+---
+
+## 🧪 Future Work
+- Expand benchmark to MaveDB and gnomAD datasets
+- Validate on multi-protein families (EGFR, KRAS, etc.)
+- Incorporate real benign mutation labels for stricter classification
+- Extend Lie algebra dynamic deformation to time-resolved conformational trajectories
+
+---
+
+## 📬 Contact & Feedback
+If you are interested in this framework, have suggestions for improvement, or want academic communication and cooperation, please feel free to contact me via email:
+**jsj_shj@just.edu.cn**
+
+---
+
+## 📌 Summary
+LieFold-AI demonstrates that protein mutation pathogenicity is not only encoded in amino acid sequences,
+but deeply embedded in the **topological spectral landscape** of protein folded structures.
+Local mutational effects propagate globally via manifold topology, providing a new geometric paradigm for disease-related mutation mechanism interpretation.
+
+---
+
+## ⭐ Acknowledgement
+If this repository and framework are helpful to your research, please give it a **Star ⭐** and Fork.
 
