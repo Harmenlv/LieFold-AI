@@ -1,4 +1,4 @@
-# LieFold-AI
+# LieFold-AI, Lie-Dynamics Geometric Biology
 **Lie Group Geometry for Protein Folding Dynamics & Pathogenicity Prediction**
 ## 🆕 Improved Topological Spectral Defect Validation (Latest Update)
 
