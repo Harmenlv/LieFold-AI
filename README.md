@@ -16,7 +16,9 @@ We establish a rigorous geometric folding theory based on time-varying Lie algeb
 
 **Corresponding Code:** `LieFold-AI.ipynb`
 
-Please note that this notebook preserves the original debugging process and execution outputs in order to maximize the transparency and reproducibility of the reported results. Some comments are written in Chinese and may be translated into your native language if needed. The explanations of the core methodological steps are provided in English, and the Chinese comments do not affect the understanding of the main framework.
+Please note that this notebook intentionally preserves the original debugging procedures, intermediate outputs, and execution results in order to maximize the transparency, traceability, and reproducibility of the proposed framework.
+
+Some auxiliary comments are written in Chinese due to the original research development environment. However, the explanations of all core methodological components are provided in English, and the Chinese annotations do not affect the understanding or reproducibility of the framework.
 
 This stage focuses on establishing the mathematical and geometric foundation of the entire LieFold-AI framework. Instead of treating protein structures as static coordinate collections, we model protein folding and mutation dynamics as continuous geometric evolution processes defined on time-varying manifolds and Lie algebraic structures.
 
@@ -47,7 +49,9 @@ We propose a universal computational framework for detecting and characterizing 
 
 **Corresponding Code:** `liefold_ai_improved.ipynb`
 
-Please note that this notebook preserves the original debugging process and execution outputs in order to maximize the transparency and reproducibility of the reported results. Some comments are written in Chinese and may be translated into your native language if needed. The explanations of the core methodological steps are provided in English, and the Chinese comments do not affect the understanding of the main framework.
+Please note that this notebook intentionally preserves the original debugging procedures, intermediate outputs, and execution results in order to maximize the transparency, traceability, and reproducibility of the proposed framework.
+
+Some auxiliary comments are written in Chinese due to the original research development environment. However, the explanations of all core methodological components are provided in English, and the Chinese annotations do not affect the understanding or reproducibility of the framework.
 
 This stage extends the theoretical geometric framework into a universal computational screening system for pathogenic mutation analysis across diverse proteins. Building upon the Lie-algebraic and manifold-based foundations established in the previous stage, the framework transforms abstract geometric dynamics into an executable prediction and characterization pipeline for amino acid variant effects.
 
@@ -87,7 +91,9 @@ We conduct in-depth empirical research focused on the core tumor suppressor prot
 
 **Corresponding Code:** `liefold_ai_improved_R2.ipynb`
 
-Please note that this notebook preserves the original debugging process and execution outputs in order to maximize the transparency and reproducibility of the reported results. Some comments are written in Chinese and may be translated into your native language if needed. The explanations of the core methodological steps are provided in English, and the Chinese comments do not affect the understanding of the main framework.
+Please note that this notebook intentionally preserves the original debugging procedures, intermediate outputs, and execution results in order to maximize the transparency, traceability, and reproducibility of the proposed framework.
+
+Some auxiliary comments are written in Chinese due to the original research development environment. However, the explanations of all core methodological components are provided in English, and the Chinese annotations do not affect the understanding or reproducibility of the framework.
 
 This stage focuses on TP53-specific mechanism validation and serves as the biological and disease-oriented empirical verification of the overall LieFold-AI framework. Building upon the theoretical geometric foundations and the generalized pathogenic mutation screening system developed in the previous stages, this research conducts an in-depth investigation of mutation-driven geometric instability mechanisms within the TP53 tumor suppressor protein.
 
