@@ -1,21 +1,50 @@
-# LieFold-AI, Lie-Dynamics Geometric Biology
-**Lie Group Geometry for Protein Folding Dynamics & Pathogenicity Prediction**
+# LieFold-AI: Lie-Dynamics Geometric Biology  
+**Lie Group Geometry for Protein Folding Dynamics and Pathogenicity Prediction**
+
 ## 🆕 Improved Topological Spectral Defect Validation (Latest Update)
 
-Author: Haijian Shao etc
+**Author:** Haijian Shao et al.
 
 This work is part of a series of three related papers, one of which is currently publicly available as a preprint.
 
-This repository corresponds to the bioRxiv preprint (MS ID: BIORXIV/2026/720255) titled Geometric Theoretical Framework for Dynamic Protein Mutation Detection Models: Defect Awareness and Pathogenicity Prediction.
-doi: https://doi.org/10.64898/2026.04.22.720255, Link: https://www.biorxiv.org/content/10.64898/2026.04.22.720255v1
+This repository corresponds to the bioRxiv preprint (MS ID: BIORXIV/2026/720255) titled:
 
-This work follows a three-stage progressive research framework of theoretical construction, general methodology development, and specific mechanism validation.
+**Geometric Theoretical Framework for Dynamic Protein Mutation Detection Models: Defect Awareness and Pathogenicity Prediction**
 
-Theoretical Foundation Stage: We establish a rigorous geometric folding theory based on time-varying Lie algebra, manifold geometry and algebraic deformation, laying the mathematical theoretical basis for protein dynamic structure analysis.
+**DOI:** https://doi.org/10.64898/2026.04.22.720255  
+**Preprint Link:** https://www.biorxiv.org/content/10.64898/2026.04.22.720255v1
 
-General Screening Stage: We propose a universal computational framework to detect and characterize pathogenic amino acid mutation sites across general proteins, providing a geometric-algebraic paradigm for variant effect prediction.
+This work follows a three-stage progressive research framework consisting of theoretical construction, general methodology development, and specific mechanism validation.
 
-TP53-Specific Mechanism Validation Stage: We conduct in-depth empirical research focused on the core tumor suppressor protein TP53. 
+---
+
+## 1. Theoretical Foundation Stage
+
+We establish a rigorous geometric folding theory based on time-varying Lie algebra, manifold geometry, and algebraic deformation, providing the mathematical foundation for dynamic protein structure analysis.
+
+**Corresponding Code:** `LieFold-AI.ipynb`
+
+Please note that this notebook preserves the original debugging process and execution outputs in order to maximize the transparency and reproducibility of the reported results. Some comments are written in Chinese and may be translated into your native language if needed. The explanations of the core methodological steps are provided in English, and the Chinese comments do not affect the understanding of the main framework.
+
+---
+
+## 2. General Screening Stage
+
+We propose a universal computational framework for detecting and characterizing pathogenic amino acid mutation sites across general proteins, providing a geometric-algebraic paradigm for variant effect prediction.
+
+**Corresponding Code:** `liefold_ai_improved.ipynb`
+
+Please note that this notebook preserves the original debugging process and execution outputs in order to maximize the transparency and reproducibility of the reported results. Some comments are written in Chinese and may be translated into your native language if needed. The explanations of the core methodological steps are provided in English, and the Chinese comments do not affect the understanding of the main framework.
+
+---
+
+## 3. TP53-Specific Mechanism Validation Stage
+
+We conduct in-depth empirical research focused on the core tumor suppressor protein TP53.
+
+**Corresponding Code:** `liefold_ai_improved_R2.ipynb`
+
+Please note that this notebook preserves the original debugging process and execution outputs in order to maximize the transparency and reproducibility of the reported results. Some comments are written in Chinese and may be translated into your native language if needed. The explanations of the core methodological steps are provided in English, and the Chinese comments do not affect the understanding of the main framework.
 
 A novel index Spectral Defect is defined to quantify topological and dynamic properties of protein residues. An counterintuitive biological pattern is uncovered: pathogenic mutations of TP53 exhibit lower spectral defect values and tend to concentrate in the rigid core region of the protein, while neutral sites maintain higher spectral defect values with greater conformational flexibility.
 The three phases progress from mathematical theory to general algorithm and finally to protein-specific mechanistic interpretation and novel biological discovery, forming a complete closed-loop research system of theory, method, and empirical verification.
