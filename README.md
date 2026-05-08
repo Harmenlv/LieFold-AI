@@ -4,6 +4,7 @@
 ## 🆕 Improved Topological Spectral Defect Validation (Latest Update)
 
 **Author:** Haijian Shao et al.
+**Google Scholar:** https://scholar.google.com/citations?user=d3mvChQAAAAJ&hl=en
 
 This work is part of a broader research series consisting of three related papers, two of which are currently publicly available as preprints.
 
