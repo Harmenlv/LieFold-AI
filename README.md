@@ -7,9 +7,6 @@
 
 This work is part of a series of three related papers, one of which is currently publicly available as a preprint.
 
-This repository corresponds to the bioRxiv preprint (MS ID: BIORXIV/2026/720255) titled:
-
-
 This work follows a three-stage progressive research framework consisting of theoretical construction, general methodology development, and specific mechanism validation.
 
 ---
