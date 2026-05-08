@@ -476,3 +476,11 @@ Local mutational effects propagate globally via manifold topology, providing a n
 ## ⭐ Acknowledgement
 If this repository and framework are helpful to your research, please give it a **Star ⭐** and Fork.
 
+
+## ☕ Support This Research
+
+If you find this work helpful for your research, please consider starring this repository and citing our papers.
+
+Academic communication and collaboration are highly welcomed.
+
+
