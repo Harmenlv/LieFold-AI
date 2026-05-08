@@ -17,6 +17,21 @@ We establish a rigorous geometric folding theory based on time-varying Lie algeb
 
 Please note that this notebook preserves the original debugging process and execution outputs in order to maximize the transparency and reproducibility of the reported results. Some comments are written in Chinese and may be translated into your native language if needed. The explanations of the core methodological steps are provided in English, and the Chinese comments do not affect the understanding of the main framework.
 
+This stage focuses on establishing the mathematical and geometric foundation of the entire LieFold-AI framework. Instead of treating protein structures as static coordinate collections, we model protein folding and mutation dynamics as continuous geometric evolution processes defined on time-varying manifolds and Lie algebraic structures.
+
+Specifically, this work introduces a dynamic Lie-algebra-driven representation framework for protein conformational evolution, where local residue interactions, structural perturbations, and mutation-induced deformations are interpreted as geometric transformations within a continuous manifold space. By integrating Lie group symmetry, algebraic deformation theory, spectral geometry, and topological structural analysis, the framework attempts to capture hidden geometric regularities underlying pathogenic mutation behavior.
+
+The theoretical framework further constructs a bridge between protein folding dynamics and geometric defect propagation. In this perspective, pathogenic mutations are not viewed merely as isolated sequence substitutions, but as local geometric defects capable of propagating through manifold deformation pathways and altering the global stability of the folding system. This provides a new geometric interpretation of mutation pathogenicity from the viewpoint of structural dynamics and algebraic evolution.
+
+To support this formulation, the framework combines:
+- Time-varying Lie algebra representations for dynamic structural evolution;
+- Manifold geometric embedding of protein conformational trajectories;
+- Spectral-topological descriptors for defect characterization;
+- Algebraic deformation mechanisms for modeling mutation-induced structural perturbations;
+- Dynamic geometric feature extraction for pathogenicity-related pattern discovery.
+
+The notebook `LieFold-AI.ipynb` contains the original implementation, intermediate debugging procedures, experimental outputs, and visualization processes used during the development of this theoretical framework. The preservation of intermediate execution results is intended to maximize methodological transparency, reproducibility, and verifiability of the proposed geometric modeling pipeline.
+
 ### Related Preprint
 
 **LieFold-AI: A Geometric Lie Algebra Framework for Protein Pathogenic Mutation Prediction**  
@@ -33,6 +48,30 @@ We propose a universal computational framework for detecting and characterizing 
 
 Please note that this notebook preserves the original debugging process and execution outputs in order to maximize the transparency and reproducibility of the reported results. Some comments are written in Chinese and may be translated into your native language if needed. The explanations of the core methodological steps are provided in English, and the Chinese comments do not affect the understanding of the main framework.
 
+This stage extends the theoretical geometric framework into a universal computational screening system for pathogenic mutation analysis across diverse proteins. Building upon the Lie-algebraic and manifold-based foundations established in the previous stage, the framework transforms abstract geometric dynamics into an executable prediction and characterization pipeline for amino acid variant effects.
+
+The core objective of this stage is to identify mutation-induced structural defects and dynamically characterize their potential pathogenic influence through geometric and topological analysis. Rather than relying solely on sequence conservation or static structural descriptors, the framework models mutation perturbations as dynamic geometric deformation processes occurring within high-dimensional protein folding manifolds.
+
+To achieve this, the proposed framework integrates:
+- Dynamic manifold trajectory modeling of protein conformational evolution;
+- Lie algebra-based geometric transformation analysis;
+- Spectral-topological defect detection mechanisms;
+- Geometric instability quantification for mutation sites;
+- Dynamic structural feature extraction from mutation perturbation propagation;
+- Multi-scale geometric descriptors for pathogenicity characterization.
+
+Within this framework, pathogenic mutations are interpreted as structural defect sources capable of inducing instability propagation across the protein geometric system. The model therefore attempts to detect not only local residue abnormalities, but also the global geometric consequences generated by mutation-driven manifold deformation.
+
+Compared with conventional mutation prediction methods that primarily depend on sequence statistics or static machine learning embeddings, this framework emphasizes:
+- Dynamic geometric evolution rather than static structural snapshots;
+- Algebraic deformation mechanisms instead of purely statistical correlations;
+- Topological and spectral defect awareness for identifying hidden structural instability patterns;
+- Generalizable geometric representations applicable across multiple protein families.
+
+The notebook `liefold_ai_improved.ipynb` contains the complete implementation of this generalized screening framework, including data preprocessing procedures, geometric feature construction, dynamic defect analysis pipelines, intermediate debugging outputs, visualization results, and validation experiments across multiple public datasets.
+
+To maximize transparency and reproducibility, the notebook intentionally preserves original execution logs, intermediate outputs, and debugging processes generated during framework development and validation.
+
 ### Related Preprint
 
 **Geometric Theoretical Framework for Dynamic Protein Mutation Detection Models: Defect Awareness and Pathogenicity Prediction**  
@@ -48,6 +87,26 @@ We conduct in-depth empirical research focused on the core tumor suppressor prot
 **Corresponding Code:** `liefold_ai_improved_R2.ipynb`
 
 Please note that this notebook preserves the original debugging process and execution outputs in order to maximize the transparency and reproducibility of the reported results. Some comments are written in Chinese and may be translated into your native language if needed. The explanations of the core methodological steps are provided in English, and the Chinese comments do not affect the understanding of the main framework.
+
+This stage focuses on TP53-specific mechanism validation and serves as the biological and disease-oriented empirical verification of the overall LieFold-AI framework. Building upon the theoretical geometric foundations and the generalized pathogenic mutation screening system developed in the previous stages, this research conducts an in-depth investigation of mutation-driven geometric instability mechanisms within the TP53 tumor suppressor protein.
+
+TP53 is one of the most extensively studied tumor suppressor proteins in cancer biology and contains a large number of clinically significant pathogenic mutation sites. Due to its critical role in genome stability regulation, cell-cycle control, apoptosis, and cancer progression, TP53 provides an ideal high-impact validation target for testing whether the proposed geometric-algebraic framework can capture biologically meaningful mutation-induced structural defects.
+
+In this stage, the framework is applied to analyze the dynamic geometric behavior of TP53 mutation regions through:
+- Dynamic manifold evolution analysis of TP53 conformational structures;
+- Lie algebra-based characterization of mutation-induced geometric perturbations;
+- Spectral-topological defect propagation analysis;
+- Structural instability quantification of pathogenic hotspot regions;
+- Geometric trajectory analysis of mutation-driven folding deviations;
+- Dynamic defect-awareness modeling for cancer-associated variants.
+
+Rather than treating TP53 mutations solely as isolated sequence alterations, the framework interprets them as dynamic geometric perturbation sources capable of triggering manifold-level structural instability and topological defect propagation across the protein folding system. This allows the model to investigate not only local mutation effects, but also broader geometric consequences associated with pathogenic structural evolution.
+
+A particular focus of this stage is the validation of whether geometric instability signatures and spectral-topological defect patterns correlate with known TP53 pathogenic mutation hotspots and experimentally observed functional disruption regions. Through this targeted mechanism-oriented analysis, the framework attempts to provide a more interpretable geometric perspective on cancer-related mutation behavior.
+
+The notebook `liefold_ai_improved_R2.ipynb` contains the complete TP53-oriented experimental pipeline, including dataset preparation, geometric feature construction, dynamic defect analysis procedures, intermediate debugging outputs, visualization results, and mechanism validation experiments.
+
+To maximize transparency, reproducibility, and methodological verifiability, the notebook intentionally preserves original execution processes, intermediate outputs, and debugging records generated throughout the experimental development workflow.
 
 ### Manuscript Status
 
