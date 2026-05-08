@@ -5,7 +5,7 @@
 
 **Author:** Haijian Shao et al.
 
-This work is part of a series of three related papers, one of which is currently publicly available as a preprint.
+This work is part of a series of three related papers, two of which are currently publicly available as a preprint.
 
 This work follows a three-stage progressive research framework consisting of theoretical construction, general methodology development, and specific mechanism validation.
 
