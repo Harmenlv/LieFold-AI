@@ -9,10 +9,6 @@ This work is part of a series of three related papers, one of which is currently
 
 This repository corresponds to the bioRxiv preprint (MS ID: BIORXIV/2026/720255) titled:
 
-**Geometric Theoretical Framework for Dynamic Protein Mutation Detection Models: Defect Awareness and Pathogenicity Prediction**
-
-**DOI:** https://doi.org/10.64898/2026.04.22.720255  
-**Preprint Link:** https://www.biorxiv.org/content/10.64898/2026.04.22.720255v1
 
 This work follows a three-stage progressive research framework consisting of theoretical construction, general methodology development, and specific mechanism validation.
 
@@ -24,7 +20,12 @@ We establish a rigorous geometric folding theory based on time-varying Lie algeb
 
 **Corresponding Code:** `LieFold-AI.ipynb`
 
+
 Please note that this notebook preserves the original debugging process and execution outputs in order to maximize the transparency and reproducibility of the reported results. Some comments are written in Chinese and may be translated into your native language if needed. The explanations of the core methodological steps are provided in English, and the Chinese comments do not affect the understanding of the main framework.
+
+**LieFold-AI: A Geometric Lie Algebra Framework for Protein Pathogenic Mutation Prediction**
+**DOI:** http://dx.doi.org/10.2139/ssrn.6695984
+**Preprint Link:** https://ssrn.com/abstract=6695984
 
 ---
 
@@ -36,6 +37,12 @@ We propose a universal computational framework for detecting and characterizing 
 
 Please note that this notebook preserves the original debugging process and execution outputs in order to maximize the transparency and reproducibility of the reported results. Some comments are written in Chinese and may be translated into your native language if needed. The explanations of the core methodological steps are provided in English, and the Chinese comments do not affect the understanding of the main framework.
 
+
+**Geometric Theoretical Framework for Dynamic Protein Mutation Detection Models: Defect Awareness and Pathogenicity Prediction**
+
+**DOI:** https://doi.org/10.64898/2026.04.22.720255  
+**Preprint Link:** https://www.biorxiv.org/content/10.64898/2026.04.22.720255v1
+
 ---
 
 ## 3. TP53-Specific Mechanism Validation Stage
@@ -45,6 +52,8 @@ We conduct in-depth empirical research focused on the core tumor suppressor prot
 **Corresponding Code:** `liefold_ai_improved_R2.ipynb`
 
 Please note that this notebook preserves the original debugging process and execution outputs in order to maximize the transparency and reproducibility of the reported results. Some comments are written in Chinese and may be translated into your native language if needed. The explanations of the core methodological steps are provided in English, and the Chinese comments do not affect the understanding of the main framework.
+
+**This manuscript has been formally submitted and is currently under peer review. It will be publicly released once accepted.**
 
 A novel index Spectral Defect is defined to quantify topological and dynamic properties of protein residues. An counterintuitive biological pattern is uncovered: pathogenic mutations of TP53 exhibit lower spectral defect values and tend to concentrate in the rigid core region of the protein, while neutral sites maintain higher spectral defect values with greater conformational flexibility.
 The three phases progress from mathematical theory to general algorithm and finally to protein-specific mechanistic interpretation and novel biological discovery, forming a complete closed-loop research system of theory, method, and empirical verification.
